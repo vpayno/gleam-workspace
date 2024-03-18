@@ -1,0 +1,12 @@
+*~
+*bak
+
+**/*.rs.bk
+**/*.beam
+/target/
+/tmp
+.idea/
+.idea/*
+erl_crash.dump
+*.lock
+node_modules/
