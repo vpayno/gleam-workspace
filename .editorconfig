@@ -1,0 +1,70 @@
+# .editorconfig
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+# indent_size = 4
+# indent_style = space
+insert_final_newline = true
+max_line_length = 240
+# tab_width = 4
+trim_trailing_whitespace = true
+
+[*.csv]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[*.tsv]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+
+[{.gitconfig,.gitmodules,.git/config}]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[Makefile]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+
+[*.{sh,bash}]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+ndent_style = space
+tab_width = 4
+
+[*.{md,txt,text}]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+
+[*.{conf,ini}]
+indent_size = 4
+indent_style = space
+indent_size = 4
+
+[*.toml]
+indent_size = 4
+indent_style = space
+indent_size = 4
+
+[*.{json,jsonl}]
+indent_size = 4
+indent_style = space
+indent_size = 4
+
+[*.{yml,yaml}]
+indent_size = 2
+indent_style = space
+indent_size = 2
+
+[*.gleam]
+indent_size = 2
+indent_style = space
+indent_size = 2
