@@ -45,9 +45,9 @@ source ~/.bash_libs.d/46-erlang.bash
 printf "\n" | erl
 ```
 
-Install or update Rebar3:
-
 ### Rebar3
+
+Install or update Rebar3:
 
 ```bash { background=false category=setup closeTerminalOnSuccess=true excludeFromRunAll=true interactive=true interpreter=bash name=install-rebar3 promptEnv=true terminalRows=10 }
 set -e
